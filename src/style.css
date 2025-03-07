@@ -1,0 +1,238 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.overall{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 26px;
+    padding: 20px;
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(98, 96, 94);
+    position: relative;
+    
+}
+.dropdown{
+    height: 500px;
+    width: 400px;
+    padding: 15px;
+    position: absolute !important ;
+    top: 0px;
+    right: -420px;
+    display: none;
+}
+.dropdownClick{
+    height: 100vh;
+    width: 400px;
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.856);
+    color: antiquewhite;
+    position: absolute !important ;
+    top: 0px;
+    right: 0px;
+    position: fixed !important;
+}
+.margintop{
+    margin-top: 15%;
+}
+.box{
+    margin-top: 4%;
+    padding: 15px;
+    height: 500px;
+    width: 350px;
+    /* border: 1px solid black; */
+    box-shadow: 0px 0px 8px 2px rgb(38, 37, 37);
+    border-radius: 5px;
+    position: relative;
+    /* flex-grow: 1; */
+}
+.heart{
+    font-size: 30px;
+    color: rgb(203, 23, 23); 
+}
+.heart:active{
+    transform: scale(1.2);
+}
+.iconouter{
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.737);
+    padding: 5px;
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    padding-top: 10px;
+}
+.box:hover{
+    box-shadow: 0px 0px 9px 2px white;
+}
+.image{
+    height: 60%;
+    width: 100%;
+    border-radius: 10px;
+}
+.tittle{
+    text-align: center;
+    font-size: 25px;
+    color: rgb(247, 208, 158);
+}
+.rate{
+    color: rgb(249, 237, 67);
+}
+.sizenumber{
+    color: antiquewhite;
+}
+.content{
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid black; */
+}
+.content2{
+    margin-top: 10px;
+    display: flex;
+    justify-content:space-around;
+}
+.content3{
+    display: flex;
+    gap: 20px;
+}
+.size{
+    border: 1px solid rgba(255, 255, 255, 0.503);
+    width: 20px;
+    text-align: center;
+    color: rgb(227, 227, 248);
+}
+.size:active{
+    transform: scale(1.2);
+    background-color: bisque;
+    color: black;
+}
+.sizenum{
+    display: flex;
+    gap: 10px;
+}
+.offer{
+color: rgb(107, 225, 243);
+}
+.icon8{
+    color: white;
+}
+.btn3{
+    width: 47%;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(43, 38, 38);
+}
+.btn4{
+    width: 47%;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: red;
+}
+.btn4:hover{
+box-shadow: 0px 0px 5px 1px white;
+}
+.btn3:hover{
+    box-shadow: 0px 0px 5px 1px white;
+}
+.btn3:active{
+    transform: scale(1.1);
+}
+.btn4:active{
+    transform: scale(1.1);
+}
+.navbar{
+    height: 60px;
+    width: 100%;
+    background-color: rgb(45, 45, 44);
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    position: fixed !important;
+    z-index: 2;
+}
+.brandname{
+    color: rgb(222, 157, 37);
+}
+.brandname2{
+    color: burlywood;
+    margin-left: 5%;
+}
+.icon{
+    font-size: 30px;
+    color: white;
+}
+.icon:active{
+    transform: scale(1.2);
+    color: azure;
+}
+.iconbox{
+    margin-right: 4%;
+    display: flex;
+    gap: 30px;
+}
+.billing{
+    display: flex;
+    justify-content: space-around;
+}
+.line{
+    width: 100%;
+    border: 1px solid rgb(255, 255, 255);
+    margin-bottom: 4%;
+}
+.bottombox{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15%;
+}
+.btn8{
+    width: 35%;
+    border: none;
+}
+.multi{
+    font-size: 15px;
+    font-weight: 900;
+}
+.inputname{
+    padding: 5px;
+    position: absolute;
+    right: 11%;
+    bottom: 17%;
+    border-radius: 10px;
+    border: none;
+    transition: all .5s ease-in-out;
+}
+.inputname2{
+    padding: 5px;
+    position: absolute;
+    right: 11%;
+    bottom: 17%;
+    border-radius: 10px;
+    border: none;
+    opacity: 0;
+    transition: all .5s ease-in-out;
+}
+.incress{
+    color: antiquewhite;
+    height: 25px;
+    width: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    right: 50px;
+    top: 10px;
+}
+table{
+    border-collapse: collapse;
+    text-align: center;
+}
+td,th{
+    padding: 5px;
+}
